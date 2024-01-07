@@ -2,7 +2,8 @@ name: edgar
 channels:
   - defaults
 dependencies:
-  - pandas>=2.0.0
+  - pandas
+  - jupyter
   - pip
   - pip:
     - beautifulsoup4>=4.10.0
