@@ -1,0 +1,21 @@
+name: edgar
+channels:
+  - defaults
+dependencies:
+  - pandas>=2.0.0
+  - pip
+  - pip:
+    - beautifulsoup4>=4.10.0
+    - lxml>=4.4
+    - rich>=13.0.0
+    - fastcore>=1.5.29
+    - humanize>=4.0.0
+    - pydantic>=2.0.0
+    - httpx>=0.25.0
+    - pyarrow>=14.0.0
+    - charset-normalizer>=2.1.1
+    - markdownify>0.11.0
+    - retry>=0.9.2
+    - textdistance>=4.5.0
+    - rank_bm25==0.2.1
+    - unstructured>=0.11.0
