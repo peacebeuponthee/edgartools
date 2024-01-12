@@ -5,7 +5,11 @@
 	"build": { 
 		"context": "..",
 		"dockerfile": "Dockerfile"
-	}
+	},
+
+	"mounts": [
+		"source=/home/server/.docker/.workspaces,target=/workspaces/test,type=bind,consistency=cached"
+	  ]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
